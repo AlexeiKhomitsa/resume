@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.avatar{
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.experience h3{
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.social h3{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.main{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.card{
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	padding-left: 25px;
+}
+
+.hobbies{
+	background-color: bisque;
+	padding-bottom: 0;
+}
+
+.hobbies li{
+	padding-bottom: 10px;
+}
+
+.experience{
+	background-color: paleturquoise;
+}
+
+.feedback{
+	background-color: rosybrown;
+}
+
+a{
+	text-decoration: none;
+}
+
+.insta{
+	color: #d6249f;
+}
+
+.insta:hover{
+	color: orange;
+}
+
+.telegram{
+	color: blue;
+}
+
+.telegram:hover{
+	color: lightblue;
+}
+
+.telegram:active{
+	color: green;
+}
+
+.btn{
+	width: 120px;
+	height: 35px;
+	background-color:	teal;
+	border: none;
+	border-radius: 5px;
+color: orange;
+}
+
+.btn:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+/* .card tbody tr:nth-child(odd){
+	background-color: bisque;
+} */
+
+.card td:nth-child(2),
+.card td:nth-child(3){
+	color: #86898f;
+}
+
+.info{
+	margin-left: 40px;
+}
+
+.main-info{
+	color: dimgray;
+}
+
+.table{
+	width: 100%;
+}
+
+.table td{
+	padding-bottom: 5px;
+}
+
+.form h3{
+	text-align: center;
+}
+
+.form-group label{
+	display: block;
+	font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea{
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: transparent;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group{
+	margin-right: 20px;
+	width: 50%;
+}
+
+@media (max-width: 690px){
+	.main{
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 650px){
+	.form-row{
+		display: block;
+	}
+
+	.form-row .form-group{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+}
